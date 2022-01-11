@@ -1,0 +1,15 @@
+io/ingestr/framework/store/repository/StoreRepository.class
+io/ingestr/framework/store/repository/S3StoreRepository.class
+io/ingestr/framework/store/repository/config/S3StoreConfig$S3StoreConfigBuilder.class
+io/ingestr/framework/store/Store.class
+io/ingestr/framework/store/utils/CompressedIO$CompressMethod.class
+io/ingestr/framework/store/model/StoreResponse$StoreResponseBuilder.class
+io/ingestr/framework/store/utils/CompressedIO.class
+io/ingestr/framework/store/repository/config/S3StoreConfig.class
+io/ingestr/framework/store/model/ReceiveObject.class
+io/ingestr/framework/store/model/StoreResponse.class
+io/ingestr/framework/store/model/ReceiveObject$ReceiveObjectBuilder.class
+io/ingestr/framework/store/model/StoreObject$StoreObjectBuilder.class
+io/ingestr/framework/store/model/StoreObject.class
+io/ingestr/framework/store/model/StoreRequest$StoreRequestBuilder.class
+io/ingestr/framework/store/model/StoreRequest.class

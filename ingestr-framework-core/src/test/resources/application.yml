@@ -1,0 +1,26 @@
+micronaut:
+  application:
+    name: ingester-loader-framework-testing
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
+    details-visible: ANONYMOUS
+
+jackson:
+  serialization:
+    writeDatesAsTimestamps: false
+
+hazelcast:
+  enabled: false
+
+ingestion:
+  topicPattern: ingestr.loader.{loaderName}.raw.{topic}
+
+kafka:
+  enabled: false
+  bootstrapServers: localhost:9092
+
+logger:
+  topic: ingestr.events.log
+  partitions: 50

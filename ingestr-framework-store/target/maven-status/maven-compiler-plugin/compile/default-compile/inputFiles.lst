@@ -1,0 +1,9 @@
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/model/StoreResponse.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/utils/CompressedIO.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/repository/S3StoreRepository.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/model/StoreObject.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/model/StoreRequest.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/repository/StoreRepository.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/Store.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/repository/config/S3StoreConfig.java
+/home/crypto/IdeaProjects/ingestr/ingestr-framework/ingestr-framework-store/src/main/java/io/ingestr/framework/store/model/ReceiveObject.java
