@@ -1,6 +1,0 @@
-hazelcast:
-  enabled: false
-
-kafka:
-  enabled: true
-  bootstrapServers: localhost:9092

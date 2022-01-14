@@ -1,5 +1,0 @@
-kafka:
-  enabled: false
-
-hazelcast:
-  enabled: false
