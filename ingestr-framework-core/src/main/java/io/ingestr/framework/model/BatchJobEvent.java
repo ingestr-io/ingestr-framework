@@ -50,5 +50,8 @@ public class BatchJobEvent {
                 .props(props);
     }
 
+
+    public static class BatchJobEventBuilder {}
+
 }
 

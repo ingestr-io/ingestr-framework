@@ -12,4 +12,6 @@ public class ParameterValueDescriptor extends AbstractField {
     private String identifier;
     private String defaultValue;
 
+
+    public static class ParameterValueDescriptorBuilder {}
 }

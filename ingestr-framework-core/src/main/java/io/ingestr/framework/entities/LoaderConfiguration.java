@@ -25,4 +25,6 @@ public class LoaderConfiguration {
     private int defaultPartitionCount = 2;
 
 
+    public static class LoaderConfigurationBuilder {}
+
 }

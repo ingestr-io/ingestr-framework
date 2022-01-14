@@ -11,4 +11,5 @@ public class OffsetKeyDescriptor {
     private String identifier;
     private DataType dataType;
 
+    public static class OffsetKeyDescriptorBuilder {}
 }

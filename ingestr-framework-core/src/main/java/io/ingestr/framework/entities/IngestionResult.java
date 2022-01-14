@@ -45,4 +45,6 @@ public class IngestionResult {
      */
     private Optional<String> key;
 
+
+    public static class IngestionResultBuilder {}
 }

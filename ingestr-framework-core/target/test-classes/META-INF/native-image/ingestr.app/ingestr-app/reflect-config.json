@@ -1,0 +1,8 @@
+[ {
+  "name" : "io.ingestr.framework.service.scheduler.SchedulerTest",
+  "fields" : [ {
+    "name" : "scheduler"
+  }, {
+    "name" : "loaderDefinitionServices"
+  } ]
+} ]

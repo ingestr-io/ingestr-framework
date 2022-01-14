@@ -166,7 +166,6 @@ io/ingestr/framework/entities/MetricsReport$Metric$MetricBuilder.class
 io/ingestr/framework/service/gateway/exceptions/CommandBusException.class
 io/ingestr/framework/service/logging/store/EventLogRepositoryKafka.class
 io/ingestr/framework/repositories/$LoaderRepository$Definition.class
-io/ingestr/framework/entities/PartitionRegistrator$ParitionRegistratorRequest$B.class
 io/ingestr/framework/kafka/KafkaQueryHandler$KafkaQuery.class
 io/ingestr/framework/service/consensus/ConsensusListener$ElectionCreatedEvent.class
 io/ingestr/framework/service/workers/LoaderMain.class
@@ -217,6 +216,7 @@ io/ingestr/framework/service/db/$RepositoryServiceKafkaImpl$Definition$Reference
 io/ingestr/framework/builders/IngestionBatchBuilder.class
 io/ingestr/framework/service/logging/config/AbstractLoggerServiceKafkaFactory$1.class
 io/ingestr/framework/service/queue/model/IngestPartitionQueueItem.class
+META-INF/native-image/ingestr.app/ingestr-app/reflect-config.json
 io/ingestr/framework/service/logging/EventLogger.class
 io/ingestr/framework/service/gateway/model/CommandListener.class
 io/ingestr/framework/model/BatchJob.class
@@ -264,8 +264,6 @@ io/ingestr/framework/entities/Partition$Priority.class
 io/ingestr/framework/service/gateway/CommandBus.class
 io/ingestr/framework/service/producer/IngestrProducer.class
 io/ingestr/framework/api/$DataDescriptorController$Definition$Reference.class
-io/ingestr/framework/entities/PartitionRegistration$B.class
-io/ingestr/framework/entities/ConfigurationDescriptor$ConfigurationDescriptorBuilderImpl.class
 io/ingestr/framework/service/gateway/model/CommandPayload.class
 io/ingestr/framework/service/db/model/EntityPayload.class
 io/ingestr/framework/service/workers/lock/LoaderLockImpl.class

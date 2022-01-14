@@ -18,4 +18,5 @@ public class ReprocessorDescriptor {
     @Singular
     private List<ParameterDescriptor> parameterDescriptors = new ArrayList<>();
 
+    public static class ReprocessorDescriptorBuilder {}
 }

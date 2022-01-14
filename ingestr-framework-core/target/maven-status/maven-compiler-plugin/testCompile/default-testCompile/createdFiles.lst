@@ -19,6 +19,7 @@ io/ingestr/framework/repositories/LoaderRepositoryKafkaTest.class
 io/ingestr/framework/service/scheduler/$SchedulerTest$Definition$Reference.class
 io/ingestr/framework/service/logging/store/$EventLogRepositoryKafkaIT$TestConfig$KafkaQueryHandler2$Definition$Reference.class
 io/ingestr/framework/repositories/$LoaderRepositoryKafkaTest$Definition$Exec.class
+META-INF/native-image/ingestr.app/ingestr-app/reflect-config.json
 io/ingestr/framework/service/queue/QueueConsumerDefaultImplTest$TestQueueItem.class
 io/ingestr/framework/validation/ParameterDescriptorParserTest.class
 io/ingestr/framework/service/logging/store/$EventLogRepositoryKafkaIT$TestConfig$Definition.class

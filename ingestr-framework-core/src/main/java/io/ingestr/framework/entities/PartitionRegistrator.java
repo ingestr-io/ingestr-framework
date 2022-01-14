@@ -7,7 +7,6 @@ import java.util.List;
 
 public interface PartitionRegistrator {
 
-//    ParitionRegistratorResult discover(ParitionRegistratorRequest request);
     void discover(ParitionRegistratorRequest request, ParitionRegistratorResult result);
 
 
@@ -15,25 +14,17 @@ public interface PartitionRegistrator {
     @ToString
     @AllArgsConstructor
     @NoArgsConstructor
-    @Builder(access = AccessLevel.PRIVATE, builderClassName = "B")
+    @Builder
     class ParitionRegistratorRequest {
         private IngestionContext ingestionContext;
 
 
         public static ParitionRegistratorRequestBuilder newParitionRegistratorRequest() {
-            return new ParitionRegistratorRequestBuilder(ParitionRegistratorRequest.builder());
+            return ParitionRegistratorRequest.builder();
         }
 
         public static class ParitionRegistratorRequestBuilder {
-            private B builder;
 
-            private ParitionRegistratorRequestBuilder(B builder) {
-                this.builder = builder;
-            }
-
-            public ParitionRegistratorRequest build() {
-                return builder.build();
-            }
         }
     }
 

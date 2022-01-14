@@ -18,4 +18,7 @@ public class PartitionKeyDescriptor {
     @Singular
     private List<String> allowedValues;
     private String defaultValue;
+
+
+    public static class PartitionKeyDescriptorBuilder {}
 }

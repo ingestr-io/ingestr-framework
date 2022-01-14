@@ -8,7 +8,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 @Slf4j
 @Data
 @ToString
-@Builder(access = AccessLevel.PRIVATE, builderClassName = "B")
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class PartitionRegistration {
@@ -16,7 +16,7 @@ public class PartitionRegistration {
 
 
     public static PartitionRegistrationBuilder newRegistration() {
-        return new PartitionRegistrationBuilder(PartitionRegistration.builder());
+        return PartitionRegistration.builder();
     }
 
     @Override
@@ -41,20 +41,11 @@ public class PartitionRegistration {
 
 
     public static class PartitionRegistrationBuilder {
-        private B builder;
-
-        public PartitionRegistrationBuilder(B builder) {
-            this.builder = builder;
-        }
-
 
         public PartitionRegistrationBuilder partition(Partition.PartitionBuilder partition) {
-            this.builder.partition(partition.build());
+            this.partition = partition.build();
             return this;
         }
 
-        public PartitionRegistration build() {
-            return builder.build();
-        }
     }
 }

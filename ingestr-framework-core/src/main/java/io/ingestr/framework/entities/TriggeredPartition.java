@@ -19,4 +19,8 @@ public class TriggeredPartition implements Serializable {
     private Map<String, String> properties;
 
 
+    public static class TriggeredPartitionBuilder {
+
+    }
+
 }
